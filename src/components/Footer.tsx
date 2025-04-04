@@ -6,9 +6,14 @@ const Footer = () => {
     <footer className="py-8 border-t border-gray-200 mt-12">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
+          <div className="mb-4 md:mb-0 flex items-center">
+            <img 
+              src="/lovable-uploads/32b8a728-dce6-4646-9f13-5f0e59cda0ae.png" 
+              alt="TextMatchScore Logo" 
+              className="h-8 mr-2"
+            />
             <p className="text-gray-600 text-sm">
-              © {new Date().getFullYear()} AlignScore Sensei. All rights reserved.
+              © {new Date().getFullYear()} TextMatchScore. All rights reserved.
             </p>
           </div>
           <div className="flex space-x-6">

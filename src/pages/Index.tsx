@@ -39,9 +39,14 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       <header className="py-6 border-b border-gray-200">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 flex items-center">
+          <img 
+            src="/lovable-uploads/32b8a728-dce6-4646-9f13-5f0e59cda0ae.png" 
+            alt="TextMatchScore Logo" 
+            className="h-12 mr-3"
+          />
           <h1 className="text-2xl font-serif font-bold text-blue-800">
-            Text Matching Score
+            TextMatchScore
           </h1>
         </div>
       </header>
@@ -51,7 +56,7 @@ const Index = () => {
           <CardHeader>
             <CardTitle className="text-xl font-serif text-blue-800">Sentence Alignment Evaluation</CardTitle>
             <CardDescription>
-              Evaluate alignment between reference and generated sentences
+              Evaluate alignment between two sentences
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -95,7 +100,7 @@ const Index = () => {
       <footer className="py-4 border-t border-gray-200">
         <div className="container mx-auto px-4 text-center">
           <p className="text-gray-600 text-sm">
-            © {new Date().getFullYear()} Text Matching Score. All rights reserved.
+            © {new Date().getFullYear()} TextMatchScore. All rights reserved.
           </p>
         </div>
       </footer>

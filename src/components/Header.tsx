@@ -10,8 +10,13 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="flex items-center mb-4 md:mb-0">
+            <img 
+              src="/lovable-uploads/32b8a728-dce6-4646-9f13-5f0e59cda0ae.png" 
+              alt="TextMatchScore Logo" 
+              className="h-12 mr-3"
+            />
             <h1 className="text-2xl font-serif font-bold text-blue-800">
-              Text Matching Score
+              TextMatchScore
             </h1>
           </div>
           <div className="flex space-x-4">
