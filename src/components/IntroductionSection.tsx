@@ -8,11 +8,13 @@ const IntroductionSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <div className="flex items-center justify-center mb-6">
-            <img 
-              src="/lovable-uploads/32b8a728-dce6-4646-9f13-5f0e59cda0ae.png" 
-              alt="TextMatchScore Logo" 
-              className="h-16 mr-3"
-            />
+            <div className="bg-white p-3 rounded-lg shadow-md mr-4">
+              <img 
+                src="/lovable-uploads/32b8a728-dce6-4646-9f13-5f0e59cda0ae.png" 
+                alt="TextMatchScore Logo" 
+                className="h-20"
+              />
+            </div>
             <h2 className="text-3xl font-serif font-bold text-blue-800">
               TextMatchScore
             </h2>

@@ -13,7 +13,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/32b8a728-dce6-4646-9f13-5f0e59cda0ae.png" 
               alt="TextMatchScore Logo" 
-              className="h-12 mr-3"
+              className="h-16 mr-3 shadow-md rounded-md"
             />
             <h1 className="text-2xl font-serif font-bold text-blue-800">
               TextMatchScore

@@ -10,7 +10,7 @@ const Footer = () => {
             <img 
               src="/lovable-uploads/32b8a728-dce6-4646-9f13-5f0e59cda0ae.png" 
               alt="TextMatchScore Logo" 
-              className="h-8 mr-2"
+              className="h-10 mr-2 shadow-sm rounded-md"
             />
             <p className="text-gray-600 text-sm">
               © {new Date().getFullYear()} TextMatchScore. All rights reserved.

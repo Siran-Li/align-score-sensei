@@ -40,11 +40,13 @@ const Index = () => {
     <div className="min-h-screen bg-gray-50 flex flex-col">
       <header className="py-6 border-b border-gray-200">
         <div className="container mx-auto px-4 flex items-center">
-          <img 
-            src="/lovable-uploads/32b8a728-dce6-4646-9f13-5f0e59cda0ae.png" 
-            alt="TextMatchScore Logo" 
-            className="h-12 mr-3"
-          />
+          <div className="bg-white p-2 rounded-md shadow-md mr-3">
+            <img 
+              src="/lovable-uploads/32b8a728-dce6-4646-9f13-5f0e59cda0ae.png" 
+              alt="TextMatchScore Logo" 
+              className="h-14"
+            />
+          </div>
           <h1 className="text-2xl font-serif font-bold text-blue-800">
             TextMatchScore
           </h1>
