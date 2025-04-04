@@ -41,7 +41,7 @@ const Index = () => {
       <header className="py-6 border-b border-gray-200">
         <div className="container mx-auto px-4">
           <h1 className="text-2xl font-serif font-bold text-blue-800">
-            AlignScore Sensei
+            Text Matching Score
           </h1>
         </div>
       </header>
@@ -95,7 +95,7 @@ const Index = () => {
       <footer className="py-4 border-t border-gray-200">
         <div className="container mx-auto px-4 text-center">
           <p className="text-gray-600 text-sm">
-            © {new Date().getFullYear()} AlignScore Sensei. All rights reserved.
+            © {new Date().getFullYear()} Text Matching Score. All rights reserved.
           </p>
         </div>
       </footer>

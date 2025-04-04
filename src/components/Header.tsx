@@ -11,7 +11,7 @@ const Header = () => {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="flex items-center mb-4 md:mb-0">
             <h1 className="text-2xl font-serif font-bold text-blue-800">
-              AlignScore Sensei
+              Text Matching Score
             </h1>
           </div>
           <div className="flex space-x-4">
